@@ -30,7 +30,7 @@ export default function Users() {
             />
           </div>
           <h3 className="text-[36px] mt-4 text-[#242424] font-[600]">50+</h3>
-          <p className="text-[#5a5a5a] text-[22px] mt-1">Data Sources</p>
+          <p className="text-[#5a5a5a] text-[22px] mt-1">Data Sources Data Sources</p>
         </div>
       </div>
     </div>
