@@ -1,26 +1,99 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .linear{
+  background: linear-gradient(90deg,#44bcff -.55%,#44b0ff 22.86%,#ff44ec 48.36%,#ff44ec 73.33%,#ff675e 99.34%);
+} */
+.linear-bg {
+  position: relative;
+}
+.linear::after {
+  background: linear-gradient(
+    90deg,
+    #44bcff -0.55%,
+    #44b0ff 22.86%,
+    #ff44ec 48.36%,
+    #ff44ec 73.33%,
+    #ff675e 99.34%
+  );
+  filter: blur(30px);
+  z-index: -1;
+  width: 260px;
+  height: 45px;
+  content: "";
+  position: absolute;
+  inset: 17.2em;
+  top: 0;
+  left: 0;
+  transition-duration: 1s;
+  transition: 1s;
+}
+/* .linear-ng button:hover::after{
+  background: #282a3add;
+  color: rgba(255, 255, 255, 0.909);
+} */
+.linear-bg button:hover::after {
+  background: linear-gradient(
+    90deg,
+    #ff44ec 48.36%,
+    #44b0ff 22.86%,
+    #ff44ec 73.33%,
+    #44bcff -0.55%,
+    #ff675e 99.34%
+  );
+  filter: blur(30px);
+  z-index: -1;
+  width: 280px;
+  background-position: 200px;
+  height: 50px;
+  content: "";
+  position: absolute;
+  inset: 17.2em;
+  /* margin-left: -100px; */
+  top: 4px;
+  left: -8px;
+}
+.btn-bg:hover {
+  background: rgb(212 229 255);
+  /* border-radius: 6px; */
+  /* padding: 20px 18px; */
+  /* transition-property: all; */
+    /* transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s; */
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.bg-scroll{
+  background-image: url('https://topic-mojo-df19jumbj-mhassankhanw3-gmailcom.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbg2.29c869c8.png&w=1920&q=75');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  position: relative;
+}
+.bg-gradient{
+  position: relative;
+  z-index: 1;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.bg-gradient-shadow::after{
+  background: linear-gradient(
+    90deg,
+    #44bcff -0.55%,
+    #44b0ff 22.86%,
+    #ff44ec 48.36%,
+    #ff44ec 73.33%,
+    #ff675e 99.34%
+  );
+  filter: blur(30px);
+  z-index:-1;
+  width: 890px;
+  height: 100px;
+  content: "";
+  position: absolute;
+  inset: 17.2em;
+  top: 0;
+  left: 0;
+  transition-duration: 1s;
+  transition: 1s;
 }
