@@ -51,7 +51,7 @@
   position: absolute;
   inset: 17.2em;
   /* margin-left: -100px; */
-  top: 100px;
+  top: 0px;
   left: 0px;
 }
 .btn-bg:hover {

@@ -10,7 +10,7 @@ export default function Hero() {
           grow your online business.
         </p>
         {/* linear-gradient(90deg,#44bcff -.55%,#44b0ff 22.86%,#ff44ec 48.36%,#ff44ec 73.33%,#ff675e 99.34%) */}
-        <div className="linear-bg mt-20">
+        <div className="linear-bg">
           <button className="linear bg-[#282a3a] hover:bg-[#282a3add] transition text-white border-none rounded-[8px] py-[15px] px-[16px] text-[18px] max-w-[100%] w-[250px] cursor-pointer">Get Started at $10/mo</button>
         </div>
         <div className="flex flex-wrap items-center mt-10">
