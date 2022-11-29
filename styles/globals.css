@@ -8,7 +8,7 @@
 .linear-bg {
   position: relative;
 }
-.linear::after {
+.linear::after{
   background: linear-gradient(
     90deg,
     #44bcff -0.55%,
@@ -51,8 +51,8 @@
   position: absolute;
   inset: 17.2em;
   /* margin-left: -100px; */
-  top: 4px;
-  left: -8px;
+  top: 100px;
+  left: 0px;
 }
 .btn-bg:hover {
   background: rgb(212 229 255);
