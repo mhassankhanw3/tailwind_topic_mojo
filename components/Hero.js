@@ -5,7 +5,7 @@ export default function Hero() {
     <div className="flex flex-wrap font-jakarta items-center mt-16 mx-auto max-w-[100%] w-[1250px] justify-center p-0">  {/* border-black border */}
       <div className="w-[850px] font-jakarta">  {/* border-black border */}
         <h1 className="text-xl font-bold ">Topic Research, simplified.</h1>
-        <p className="text-[17px] text-[#5a5a5a] my-4 w-[535px]">
+      <p className="text-[17px] text-[#5a5a5a] mt-4 mb-24 w-[535px]">
           Our platform provides tools and analysis features that will help you
           grow your online business.
         </p>
