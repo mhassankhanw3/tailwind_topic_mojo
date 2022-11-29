@@ -8,7 +8,7 @@
 .linear-bg {
   position: relative;
 }
-.linear-bg::after {
+.linear::after {
   background: linear-gradient(
     90deg,
     #44bcff -0.55%,
@@ -33,7 +33,7 @@
   background: #282a3add;
   color: rgba(255, 255, 255, 0.909);
 } */
-.linear-bg:hover::after {
+.linear:hover::after {
   background: linear-gradient(
     90deg,
     #ff44ec 48.36%,
