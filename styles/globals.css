@@ -207,6 +207,71 @@
   left: 0px;
 }
 
+
+.linear-bg-content {
+  position: relative;
+  z-index: 1;
+}
+.linear-content::after{
+  background: linear-gradient(
+    90deg,
+    #44bcff -0.55%,
+    #44b0ff 22.86%,
+    #ff44ec 48.36%,
+    #ff44ec 73.33%,
+    #ff675e 99.34%
+  );
+  filter: blur(30px);
+  z-index: -1;
+  width: 260px;
+  height: 45px;
+  content: "";
+  position: absolute;
+  inset: 17.2em;
+  top: 0;
+  left: 0;
+  transition-duration: 1s;
+  transition: 1s;
+}
+.linear-content:hover::after {
+  background: linear-gradient(
+    90deg,
+    #ff44ec 48.36%,
+    #44b0ff 22.86%,
+    #ff44ec 73.33%,
+    #44bcff -0.55%,
+    #ff675e 99.34%
+  );
+  filter: blur(30px);
+  z-index: -1;
+  /* width: 280px; */
+  background-position: 200px;
+  height: 50px;
+  content: "";
+  position: absolute;
+  inset: 17.2em;
+  /* margin-left: -100px; */
+  top: 0;
+  left: 0;
+}
+
+.content{
+  background-image: url('https://d21b0h47110qhi.cloudfront.net/topicmojo/cta2bg-HZvU9aVMvkvsTYV.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 350px; */
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 760px) {
   .bg-gradient-shadow::after{
     height: 610px;

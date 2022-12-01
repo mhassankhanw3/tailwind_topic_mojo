@@ -6,7 +6,7 @@ export default function Launch() {
       <div className="bg-scroll bg-scroll-launch sm:h-1/2 p-[80px] max-w-full w-full font-jakarta">
         <div className="flex w-11/12 items-center justify-center mx-auto max-w-full">
           <img
-          className="w-24 h-20 -mt-24"
+          className="w-22 h-20 -mt-24"
             src="https://d21b0h47110qhi.cloudfront.net/topicmojo/ctarocketimg-pyziWejVXZt0RrU.png"
             alt=""
           />
