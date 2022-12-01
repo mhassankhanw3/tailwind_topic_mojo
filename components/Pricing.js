@@ -26,8 +26,8 @@ export default function Pricing() {
 
       {/* ========================== Pricing ========================== */}
 
-      <div className="mt-14 flex items-center justify-between max-w-full w-[1200px] mx-auto ">
-        <div className="max-w-full w-[370px] rounded-[24px] py-6 px-7 bg-white  shadow-[1px_1px_40px_rgba(139,139,139,0.08)]">
+      <div className="mt-14 flex flex-wrap items-center justify-center max-w-full w-[1200px] mx-auto ">
+        <div className="max-w-full w-[370px] rounded-[24px] mx-2 mt-3 py-6 px-7 bg-white  shadow-[1px_1px_40px_rgba(139,139,139,0.08)]">
           <img
             className="w-full object-cover"
             src="https://d21b0h47110qhi.cloudfront.net/old-free/pricing-img1-djIO6YQYkJMi2u6.png"
@@ -181,7 +181,7 @@ export default function Pricing() {
 
 
 
-        <div className="max-w-full w-[370px] rounded-[24px] py-6 px-7 bg-[#282A3A] text-white  shadow-[1px_1px_40px_rgba(139,139,139,0.08)]">
+        <div className="max-w-full w-[370px] rounded-[24px] mx-2 mt-3 py-6 px-7 bg-[#282A3A] text-white  shadow-[1px_1px_40px_rgba(139,139,139,0.08)]">
           <img
             className="w-full object-cover"
             src="https://d21b0h47110qhi.cloudfront.net/old-free/pricing-img2-Z7n2uTtaw4xkaqx.png"
@@ -340,7 +340,7 @@ export default function Pricing() {
 
 
           
-         <div className="max-w-full w-[370px] rounded-[24px] py-6 px-7 bg-white shadow-[1px_1px_40px_rgba(139,139,139,0.08)]">
+         <div className="max-w-full w-[370px] rounded-[24px] mx-2 mt-3 py-6 px-7 bg-white shadow-[1px_1px_40px_rgba(139,139,139,0.08)]">
           <img
             className="w-full object-cover"
             src="https://d21b0h47110qhi.cloudfront.net/topicmojo/procardnewimg-6DKCh2MVn3WUcZj.png"

@@ -2,12 +2,12 @@ import React from 'react'
 
 export default function PlatFeature() {
   return (
-    <div className='mt-36 max-w-full font-jakarta'>
+    <div className='mt-36 max-w-full font-jakarta p-4'>
         <div className='max-w-full text-center mx-auto w-[500px]'>
         <h1 className='leading-[52px] font-bold text-[42px]'>Platform Features</h1>
         </div>
         <div className='main max-w-full w-[1180px] justify-center mx-auto '>
-            <div className='flex max-w-full w-[1140px] justify-between mt-10 mx-auto items-center'>
+            <div className='flex flex-wrap max-w-full w-[1140px] justify-between mt-10 mx-auto items-center'>
                 <div className='max-w-full w-[300px]'>
                  <div className='bg-black rounded-full flex items-center justify-center w-[60px] h-[60px] '>
                     <img src="https://d21b0h47110qhi.cloudfront.net/topicmojo/savedimg-ohOZSRzZDNDrpZb.png" alt="" />

@@ -4,14 +4,14 @@ import React from 'react'
 export default function Footer() {
   return (
         <footer className='mt-12 max-w-full pt-10 pb-6 px-11 font-jakarta'>
-            <div className='flex items-start max-w-full w-[1100px] mx-auto '>
-            <div className=''>
+            <div className='flex flex-wrap items-start max-w-full w-[1100px] mx-auto '>
+            <div className='mt-4'>
                 <img src="https://d21b0h47110qhi.cloudfront.net/topicmojo/topicmojofooter-jAqKmTlk18285zl.png" alt="" />
                 <p className='mt-6 text-[18px] font-medium text-[#5A5A5A] max-w-[233px]'>Get analysis features that will help you grow your online business.</p>
             </div>
-            <div className='flex items-start max-w-full w-[700px] justify-between ml-36'>
+            <div className='xl:flex flex-wrap sm:block sm:ml-0 sm:max-w-full items-start max-w-full mt-4 w-[700px] justify-center xl:ml-36'>
                
-                    <ul>
+                    <ul className='mx-5 mt-3'>
                         <p className='text-[#5A5A5A] text-[18px] font-bold mb-[20px]'>Help</p>
                         <Link href="/" legacyBehavior>
                         <li className='mb-[20px]'><a className='text-[#5A5A5A] hover:text-[#287DFF] text-[18px] font-medium' href="/">Pricing</a></li></Link>
@@ -24,7 +24,7 @@ export default function Footer() {
                         <Link href="/" legacyBehavior>
                         <li className='mb-[20px]'><a className='text-[#5A5A5A] hover:text-[#287DFF] text-[18px] font-medium' href="/">Privacy Policy</a></li></Link>
                     </ul>
-                    <ul>
+                    <ul className='mx-5 mt-3'>
                         <p className='text-[#5A5A5A] text-[18px] font-bold mb-[20px]'>Tools</p>
                         <Link href="/" legacyBehavior>
                         <li className='mb-[20px]'><a className='text-[#5A5A5A] hover:text-[#287DFF] text-[18px] font-medium' href="/">Topic Model</a></li></Link>
@@ -33,7 +33,7 @@ export default function Footer() {
                         <Link href="/" legacyBehavior>
                         <li className='mb-[20px]'><a className='text-[#5A5A5A] hover:text-[#287DFF] text-[18px] font-medium' href="/">Search Listener</a></li></Link>
                     </ul>
-                    <ul>
+                    <ul className='mx-5 mt-3'>
                         <p className='text-[#5A5A5A] text-[18px] font-bold mb-[20px]'>Resources</p>
                         <Link href="/" legacyBehavior>
                         <li className='mb-[20px]'><a className='text-[#5A5A5A] hover:text-[#287DFF] text-[18px] font-medium' href="/">Blog</a></li></Link>
