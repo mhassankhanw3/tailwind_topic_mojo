@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="flex font-jakarta items-center mt-16 mx-auto max-w-full lg:w-[1250px] md:w-[1000px] lg:justify-between md:justify-between p-4">  {/* border-black border */}
+    <div className="flex font-jakarta items-center mt-16 mx-auto max-w-full lg:w-[1250px] md:w-[1000px] justify-center md:justify-between p-4">  {/* border-black border */}
       <div className="lg:w-[600px] md:w-[500px] font-jakarta hero_text">  {/* border-black border */}
-        <h1 className="text-xl font-bold ">Topic Research, simplified.</h1>
+        <h1 className="text-xl font-bold leading-[40px]">Topic Research, simplified.</h1>
       <p className="text-[17px] text-[#5a5a5a] mt-4 mb-24 max-w-full lg:w-[535px] md:w-[400px]">
           Our platform provides tools and analysis features that will help you
           grow your online business.

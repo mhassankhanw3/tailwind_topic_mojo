@@ -267,14 +267,28 @@
 
 
 
-
+@media screen and (max-width: 375px){
+  .bg-gradient-shadow::after{
+    height: 350px;
+  }
+}
+@media screen and (max-width: 470px){
+  .bg-gradient-shadow::after{
+    height: 270px !important;
+  }
+}
+@media screen and (max-width: 400px){
+  .bg-gradient-shadow::after{
+    height: 200px !important;
+  }
+}
 
 
 
 
 @media screen and (max-width: 760px) {
   .bg-gradient-shadow::after{
-    height: 610px;
+    height: 200px;
   }
 }
 
