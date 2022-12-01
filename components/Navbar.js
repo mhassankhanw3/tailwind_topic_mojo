@@ -3,11 +3,11 @@ import { HiOutlineChevronDown } from "react-icons/hi";
 
 export default function Navbar() {
   return (
-    <nav className="flex items-center justify-between max-w-[100%] w-[1250px] py-8 mx-auto"> {/* border border-black */}
+    <nav className="flex items-center justify-between max-w-full w-[1250px] px-4 py-8 mx-auto"> {/* border border-black */}
         
       <div> {/* border border-black */}
         <img
-        className="w-52 cursor-pointer"
+        className="lg:w-52 md:w-44 cursor-pointer"
           src="https://topic-mojo-df19jumbj-mhassankhanw3-gmailcom.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FTOPICMOJO_ICON.be6275a9.png&w=256&q=75"
           alt=""
         />
