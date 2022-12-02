@@ -265,6 +265,23 @@
 }
 
 
+@media screen and (max-width: 500px){
+  .bg-scroll{
+    height: 650px !important;
+  }
+  .map{
+    margin-top: 100px !important ;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .bg-scroll{
+    height: 750px !important;
+  }
+  .map h2{
+    font-size: 28px;
+  }
+}
 
 
 @media screen and (max-width: 375px){

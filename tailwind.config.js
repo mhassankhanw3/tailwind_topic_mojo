@@ -11,6 +11,7 @@ module.exports = {
     screens: {
       // 'log': {'max': '760px'},
       'log': {'max': '375px'},
+      'main': {'max': '405px'},
       'mdLog': {'max': '890px'},
       'navimg': {'max': '500px'},
       'mdLogmd': {'max': '640px'},
