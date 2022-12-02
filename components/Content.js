@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Content() {
   return (
-    <div className='mt-32 mb-10 py-10 font-jakarta content'>
+    <div className='mt-20 mb-10 py-10 font-jakarta content'>
         <div className='text-center p-4 mx-auto max-w-full w-[1000px]'>
             <img className='mx-auto' src="https://d21b0h47110qhi.cloudfront.net/topicmojo/cta2bulbimg-hy6VcRnNe8rXzZ8.png" alt="" />
             <h2 className='text-[#090914] text-center text-[52px]  font-semibold leading-[66px]'>Running out of content ideas?</h2>

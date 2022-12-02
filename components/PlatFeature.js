@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function PlatFeature() {
   return (
-    <div className='mt-36 max-w-full font-jakarta p-4'>
+    <div className='mt-20 max-w-full font-jakarta p-4'>
         <div className='max-w-full text-center mx-auto w-[500px]'>
         <h1 className='leading-[52px] font-bold text-[42px]'>Platform Features</h1>
         </div>

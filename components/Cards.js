@@ -11,7 +11,7 @@ export default function Cards() {
           similarity, and more that helps you to rank higher on Google.
         </p>
       </div>
-      <div className="flex flex-wrap sm:justify-center md:mx-auto items-center mt-12 max-w-full w-[1180px] mx-auto justify-center ">
+      <div className="flex flex-wrap sm:justify-center md:mx-auto items-center mt-8 max-w-full w-[1180px] mx-auto justify-center ">
         <div className="card mt-3 mx-2 bg-white min-h-[442px] border border-yellow-50 shadow-[0px_4px_15px_rgba(82,82,82,0.15)] max-w-full w-[370px] justify-center block p-5 rounded-[15px]">
         <img className="rounded-xl w-[320px] mx-auto" src="https://d21b0h47110qhi.cloudfront.net/topicmojo/sentiments-URdYAa8hLzNQWrY.png" alt="" />
         <div className="mt-6 mx-auto w-[320px] mdLogmdfor:w-[300px]">
